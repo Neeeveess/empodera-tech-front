@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Empodera Tech utilizando React
 
-Currently, two official plugins are available:
+### Projeto em andamento!
+**Projeto feito em React com Typescript utilizando Vite**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o Projeto
+Este projeto consiste em uma aplicação Front-end, foi desenvolvido Front-end de uma simples landing page, utilizando React, onde o objetivo da página é o usuario se inscrever em um formulário (simulando uma inscrição de evento) que bate em uma API feita em JAVA para fazer esse cadastro e enviar uma mensagem no email do usuário.
+<br>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+ - React
+ - Vite
+ - Typescript
+ - React-hook-form
+ - Axios
+ - Zod
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Iniciando projeto
+Instale as dependências com o seguinte comando na pasta do projeto:
+
+    npm i
+
+Para iniciar a aplicação execute a seguinte ação na pasta do projeto:
+
+    npm run dev
+
+## Autor
+
+**João Vitor Neves Marques** <br>
+e-mail: jvneves_marq@hotmail.com <br>
+Linkedin: https://www.linkedin.com/in/jvneves/
