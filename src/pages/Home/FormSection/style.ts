@@ -43,6 +43,10 @@ export const FormGroup = styled.form`
 
     .item {
       flex: 1;
+      span {
+        margin-left: 1rem;
+        color: #dc3545;
+      }
       label {
         font-size: 1rem;
       }
@@ -57,5 +61,8 @@ export const FormGroup = styled.form`
         font-size: 1rem;
       }
     }
+  }
+  button {
+    margin-top: 2rem;
   }
 `
