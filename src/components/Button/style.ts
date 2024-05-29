@@ -11,9 +11,15 @@ export const ButtonPrimary = styled.button`
   width: fit-content;
   transition: all 0.2s;
 
-  &:hover {
+  &:hover:not(:disabled) {
     background-color: transparent;
     color: ${(props) => props.theme.white};
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
   }
 `
 

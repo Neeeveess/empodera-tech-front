@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ButtonHTMLAttributes } from 'react'
 
 import {
   ButtonPrimary,
@@ -7,23 +7,23 @@ import {
   ButtonTertiary,
 } from './style'
 
-export interface ButtonProps {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string | React.ReactNode
   variation: 'primary' | 'primary-inverted' | 'secondary' | 'tertiary'
 }
 
-export function Button({ text, variation }: ButtonProps) {
+export function Button({ text, variation, ...props }: ButtonProps) {
   if (variation === 'secondary') {
-    return <ButtonSecondary>{text}</ButtonSecondary>
+    return <ButtonSecondary {...props}>{text}</ButtonSecondary>
   }
 
   if (variation === 'tertiary') {
-    return <ButtonTertiary>{text}</ButtonTertiary>
+    return <ButtonTertiary {...props}>{text}</ButtonTertiary>
   }
 
   if (variation === 'primary-inverted') {
-    return <ButtonPrimaryInverted>{text}</ButtonPrimaryInverted>
+    return <ButtonPrimaryInverted {...props}>{text}</ButtonPrimaryInverted>
   }
 
-  return <ButtonPrimary>{text}</ButtonPrimary>
+  return <ButtonPrimary {...props}>{text}</ButtonPrimary>
 }
