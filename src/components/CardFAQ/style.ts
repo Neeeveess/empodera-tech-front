@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const CardFAQContainer = styled.details`
   background-color: ${(props) => props.theme.white};
   color: ${(props) => props.theme.black};
+  border: 2px solid ${(props) => props.theme.primary};
   padding: 1rem;
   border-radius: 12px;
   max-width: 1200px;

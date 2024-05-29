@@ -5,6 +5,7 @@ export function FAQSection() {
   return (
     <FAQContainer>
       <FAQContent>
+        <h2>Dúvidas frequentes</h2>
         <CardFAQ question="What is Netflix?">
           <p>
             Netflix is a streaming service that offers a wide variety of
