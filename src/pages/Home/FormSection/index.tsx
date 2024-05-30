@@ -22,20 +22,7 @@ const subscribleForm = z.object({
     .regex(/^[^_]*$/, 'Digite um número de celular válido')
     .length(15, 'Digite um número de celular válido'),
   nascimento: z.string().nullable(),
-  escolaridade: z
-    .string()
-    .refine(
-      (value) =>
-        [
-          'ensino-fundamental-incompleto',
-          'ensino-fundamental-completo',
-          'ensino-medio-incompleto',
-          'ensino-medio-completo',
-          'ensino-superior-incompleto',
-          'ensino-superior-completo',
-        ].includes(value),
-      'Selecione uma escolaridade',
-    ),
+  escolaridade: z.string(),
   cidade: z.string().nullable(),
 })
 
@@ -56,7 +43,7 @@ export function FormSection() {
 
       if (data.nascimento !== null) data.idade = calcBithday(data.nascimento)
 
-      console.log(data)
+      // console.log(data)
       await subscribe(data)
     } catch {}
   }
