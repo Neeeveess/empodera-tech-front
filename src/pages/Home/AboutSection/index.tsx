@@ -1,8 +1,9 @@
-import { Clock } from 'lucide-react'
+import { BadgeDollarSign, FileCheck, Users, Video } from 'lucide-react'
 import { useTheme } from 'styled-components'
 
 import { Button } from '../../../components/Button'
 import { Card } from '../../../components/Card'
+import { scrollToSection } from '../../../ultils/scrolToSection'
 import {
   AboutContainer,
   AboutContent,
@@ -14,23 +15,23 @@ export function AboutSection() {
   const theme = useTheme()
 
   return (
-    <AboutContainer>
+    <AboutContainer id="aboutSection">
       <AboutContent>
         <AboutGroupCards>
           <Card
-            icon={<Clock size={40} color={theme.primary} />}
+            icon={<BadgeDollarSign size={40} color={theme.primary} />}
             text="100% GRATUITO"
           />
           <Card
-            icon={<Clock size={40} color={theme.primary} />}
+            icon={<Video size={40} color={theme.primary} />}
             text="TODO CURSO EM FORMATO EAD"
           />
           <Card
-            icon={<Clock size={40} color={theme.primary} />}
+            icon={<FileCheck size={40} color={theme.primary} />}
             text="CERTIFICADO APÓS A FINALIZAÇÃO DO CURSO"
           />
           <Card
-            icon={<Clock size={40} color={theme.primary} />}
+            icon={<Users size={40} color={theme.primary} />}
             text="NETWORKING GARANTIDO"
           />
         </AboutGroupCards>
@@ -53,7 +54,11 @@ export function AboutSection() {
             inscreverem e darem o primeiro passo rumo a uma carreira de sucesso
             no mercado tecnológico.
           </p>
-          <Button variation="primary-inverted" text="Inscrever-se" />
+          <Button
+            onClick={() => scrollToSection('formSection')}
+            variation="primary-inverted"
+            text="Inscrever-se"
+          />
         </AboutText>
       </AboutContent>
     </AboutContainer>

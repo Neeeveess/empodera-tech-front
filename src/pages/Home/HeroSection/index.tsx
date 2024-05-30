@@ -1,11 +1,12 @@
 import bgImg from '../../../assets/hero-bg.jpg'
 import heroImg from '../../../assets/hero-img.png'
 import { Button } from '../../../components/Button'
+import { scrollToSection } from '../../../ultils/scrolToSection'
 import { HeroContainer, HeroContent, HeroText } from './style'
 
 export function HeroSection() {
   return (
-    <HeroContainer bgImg={bgImg}>
+    <HeroContainer id="heroSection" bgImg={bgImg}>
       <HeroContent>
         <HeroText>
           {/* <h2>Label goes here</h2> */}
@@ -34,8 +35,16 @@ export function HeroSection() {
             perspectivas diversas, inovação e progresso para o setor.
           </p>
           <div className="group-buttons">
-            <Button variation="primary" text="Saiba-mais" />
-            <Button variation="secondary" text="Inscreva-se" />
+            <Button
+              onClick={() => scrollToSection('aboutSection')}
+              variation="primary"
+              text="Saiba-mais"
+            />
+            <Button
+              onClick={() => scrollToSection('formSection')}
+              variation="secondary"
+              text="Inscreva-se"
+            />
           </div>
         </HeroText>
         <img src={heroImg} alt="" />

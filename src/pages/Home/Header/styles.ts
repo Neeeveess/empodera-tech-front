@@ -50,6 +50,7 @@ export const HeaderLogo = styled.a`
   justify-content: center;
   color: ${(props) => props.theme.white};
   text-decoration: none;
+  cursor: pointer;
 
   font-size: 1.25rem;
 `
@@ -64,6 +65,7 @@ export const HeaderNav = styled.nav`
     text-decoration: none;
     font-weight: 700;
     transition: all 0.2s;
+    cursor: pointer;
   }
   :hover {
     filter: brightness(0.9);
@@ -77,6 +79,7 @@ export const HeaderNav = styled.nav`
       top: 100%;
       left: 0;
       width: 100%;
+      padding: 2rem 0;
 
       background-color: ${(props) => props.theme.primary};
 

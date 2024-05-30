@@ -26,7 +26,10 @@ export const HeroContainer = styled.section<BgImgProps>`
     transform: scaleX(-1);
   }
   @media (max-width: 1260px) {
-    min-height: 600px;
+    min-height: 800px;
+  }
+  @media (max-width: 992px) {
+    min-height: initial;
   }
 `
 
@@ -51,7 +54,7 @@ export const HeroContent = styled.div`
   }
   @media (max-width: 1260px) {
     margin: auto 40px;
-    padding: 40px 0;
+    /* padding: 60px 0; */
   }
   @media (max-width: 992px) {
     img {
@@ -95,6 +98,9 @@ export const HeroText = styled.div`
   .group-buttons {
     display: flex;
     gap: 1rem;
+    @media (max-width: 992px) {
+      flex-wrap: wrap;
+    }
   }
 
   @media (max-width: 992px) {

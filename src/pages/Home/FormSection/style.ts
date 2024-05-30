@@ -37,9 +37,12 @@ export const FormGroup = styled.form`
 
   .line {
     width: 100%;
-    min-width: 300px;
+    min-width: 250px;
     display: flex;
     gap: 1rem;
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
 
     .item {
       flex: 1;

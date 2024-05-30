@@ -49,7 +49,7 @@ export function FormSection() {
   }
 
   return (
-    <FormContainer>
+    <FormContainer id="formSection">
       <FormContent>
         <h2>Inscreva-se aqui!</h2>
         <FormGroup onSubmit={handleSubmit(handleFormSubmit)}>

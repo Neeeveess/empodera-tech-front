@@ -3,7 +3,7 @@ import { FAQContainer, FAQContent } from './style'
 
 export function FAQSection() {
   return (
-    <FAQContainer>
+    <FAQContainer id="faqSection">
       <FAQContent>
         <h2>Dúvidas frequentes</h2>
         <CardFAQ question="1 - Como o curso vai funcionar?">

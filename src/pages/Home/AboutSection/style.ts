@@ -30,6 +30,9 @@ export const AboutGroupCards = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   flex: 1;
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
 
 export const AboutText = styled.div`
