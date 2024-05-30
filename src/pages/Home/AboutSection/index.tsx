@@ -19,19 +19,19 @@ export function AboutSection() {
         <AboutGroupCards>
           <Card
             icon={<Clock size={40} color={theme.primary} />}
-            text="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."
+            text="100% GRATUITO"
           />
           <Card
             icon={<Clock size={40} color={theme.primary} />}
-            text="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."
+            text="TODO CURSO EM FORMATO EAD"
           />
           <Card
             icon={<Clock size={40} color={theme.primary} />}
-            text="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."
+            text="CERTIFICADO APÓS A FINALIZAÇÃO DO CURSO"
           />
           <Card
             icon={<Clock size={40} color={theme.primary} />}
-            text="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."
+            text="NETWORKING GARANTIDO"
           />
         </AboutGroupCards>
         <AboutText>
