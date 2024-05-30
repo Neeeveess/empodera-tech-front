@@ -31,7 +31,7 @@ export const ButtonPrimaryInverted = styled(ButtonPrimary)`
 
   &:hover {
     background-color: ${(props) => props.theme.white};
-    color: ${(props) => props.theme.primary};
+    color: ${(props) => props.theme.primary} !important;
 
     filter: none;
   }
@@ -42,8 +42,8 @@ export const ButtonSecondary = styled(ButtonPrimary)`
   color: ${(props) => props.theme.white};
 
   &:hover {
-    background-color: ${(props) => props.theme.white};
-    color: ${(props) => props.theme.primary};
+    background-color: ${(props) => props.theme.white} !important;
+    color: ${(props) => props.theme.primary} !important;
 
     filter: none;
   }
