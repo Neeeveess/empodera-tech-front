@@ -8,15 +8,30 @@ export function HeroSection() {
     <HeroContainer bgImg={bgImg}>
       <HeroContent>
         <HeroText>
-          <h2>Label goes here</h2>
-          <h1>Empodere-se com a tecnologia</h1>
+          {/* <h2>Label goes here</h2> */}
+          <h1>Bem-vindas ao Empodera Tech</h1>
           <p>
-            Lorem ipsum dolor sit amet. Qui ipsa accusamus ut dolorem commodi
-            aut fugit enim id quidem eligendi ab quisquam assumenda qui sint
-            repudiandae. Nam provident maxime qui laudantium omnis qui dolores
-            quas eum vitae voluptate est sint excepturi non molestias impedit
-            aut labore odit! Ab dolorum repudiandae sed error omnis qui omnis
-            repellendus sit similique voluptatem!
+            O Programa de Incentivo e Capacitação para Mulheres no Mercado
+            Tecnológico é uma iniciativa estratégica voltada para promover a
+            participação e o avanço das mulheres no setor de tecnologia.
+            Reconhecendo a sub-representação das mulheres nesse campo, o
+            programa visa oferecer suporte abrangente para capacitar e
+            incentivar mulheres a ingressarem, avançarem e liderarem no mercado
+            tecnológico. Este programa aborda diversas áreas-chave para a
+            capacitação das mulheres, incluindo educação técnica, habilidades de
+            liderança, networking e mentoria. Além disso, ele busca criar uma
+            cultura inclusiva e diversificada no ambiente de trabalho
+            tecnológico, promovendo a equidade de gênero e combatendo
+            preconceitos e estereótipos. O programa oferece acesso a
+            oportunidades de educação, treinamento especializado, programas de
+            estágio e mentoria personalizada. Essas iniciativas visam não apenas
+            aumentar a presença de mulheres no mercado tecnológico, mas também
+            garantir que elas tenham as habilidades e o suporte necessário para
+            alcançar sucesso e liderança em suas carreiras. Em última análise, o
+            Programa de Incentivo e Capacitação para Mulheres no Mercado
+            Tecnológico não apenas beneficia as mulheres individualmente, mas
+            também enriquece a indústria tecnológica como um todo, trazendo
+            perspectivas diversas, inovação e progresso para o setor.
           </p>
           <div className="group-buttons">
             <Button variation="primary" text="Saiba-mais" />

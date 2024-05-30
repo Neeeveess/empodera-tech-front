@@ -37,26 +37,22 @@ export function AboutSection() {
         <AboutText>
           <h2>Como funciona o curso?</h2>
           <p>
-            Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum
-            sit nunc in eros scelerisque sed. Commodo in viverra nunc,
-            ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis,
-            pulvinar. Fermentum scelerisque sit consectetur hac mi. Mollis leo
-            eleifend ultricies purus iaculis. Rhoncus morbi et augue nec, in id
-            ullamcorper at sit.
+            Atualmente, oferecemos um curso voltado para desenvolvimento Web
+            Fullstack. Nosso objetivo é expandir a oferta de cursos no futuro
+            para cobrir diversas áreas da tecnologia.
           </p>
           <p>
-            Condimentum sit nunc in eros scelerisque sed. Commodo in viverra
-            nunc, ullamcorper ut. Non, amet, aliquet scelerisque nullam
-            sagittis, pulvinar. Fermentum scelerisque sit consectetur hac mi.
-            Mollis leo eleifend ultricies purus iaculis.
+            Para participar, você deve se inscrever e passar pelo nosso processo
+            seletivo. A seleção consiste em uma análise detalhada da sua
+            inscrição, garantindo que os candidatos selecionados tenham o perfil
+            adequado para aproveitar ao máximo o curso.
           </p>
-          <ul>
-            <li>Fermentum scelerisque sit consectetur hac mi.</li>
-            <li>Fermentum scelerisque sit consectetur hac mi.</li>
-            <li>Fermentum scelerisque sit consectetur hac mi.</li>
-            <li>Fermentum scelerisque sit consectetur hac mi.</li>
-            <li>Fermentum scelerisque sit consectetur hac mi.</li>
-          </ul>
+          <p>
+            Após a inscrição, você receberá um retorno em breve sobre o
+            resultado da seleção. Convidamos todas as mulheres interessadas a se
+            inscreverem e darem o primeiro passo rumo a uma carreira de sucesso
+            no mercado tecnológico.
+          </p>
           <Button variation="primary-inverted" text="Inscrever-se" />
         </AboutText>
       </AboutContent>
