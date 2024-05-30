@@ -38,9 +38,8 @@ export function AboutSection() {
         <AboutText>
           <h2>Como funciona o curso?</h2>
           <p>
-            Atualmente, oferecemos um curso voltado para desenvolvimento Web
-            Fullstack. Nosso objetivo é expandir a oferta de cursos no futuro
-            para cobrir diversas áreas da tecnologia.
+            Atualmente, oferecemos um curso voltado para algumas áreas da
+            tecnologia que está em constante crescimento
           </p>
           <p>
             Para participar, você deve se inscrever e passar pelo nosso processo
